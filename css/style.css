@@ -1,0 +1,209 @@
+/* დაიწყო header */
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+header{
+    
+}
+.header_1{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;  
+}
+.header_logo{
+    font-weight: 700;
+    color: #758BFD;
+    font-size: 32px;
+}
+.color{
+    color: #27187F;
+}
+nav{
+    
+}
+ul{
+    
+}
+.header_list{
+    font-weight: 500;
+    width: 400px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+li{
+    
+}
+.header_content{
+    color: #758BFD;
+}
+.box1{
+    border: 3px solid #27187F;
+    border-radius: 10px;
+    width: 221px;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    color: #758BFD;
+    font-size: 30px;
+}
+
+/* დაიწყო კონტენტი */
+
+article{
+    background-color: #DDEAF8;
+    height: 1051px;
+    display: flex;
+    align-items: center;
+}
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 auto;
+    align-items: center;
+    height: 822px;
+}
+h1{
+    width: 100%;
+    font-size: 32px;
+    color: #27187F;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    width: 30%;
+    height: 333px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    gap: 33px;
+}
+.article_image{
+
+}
+.article_text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #133B3A;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer{
+    background-color: #758BFD;
+    width: 1440px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+}
+.footer1{
+    width: 1244px;
+    height: 202px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_list_contact{
+    width: 122px;
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+h2{
+    color: #00CAD7;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+.contact_mail{
+
+}
+.mail{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px;
+}
+.social_icons{
+    width: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-facebook-f{
+    color: white;
+}
+.fa-twitter{
+    color: white; 
+}
+.fa-linkedin-in{
+    color: white; 
+}
+.fa-instagram{
+    color: white; 
+}
+.footer_list_trending{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+h3{
+    color: #00CAD7;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+p{
+    font-size: 13px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+.footer_list_information{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer_list_costumercare{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.costumercare{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.visacards{
+    width: 1244px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
